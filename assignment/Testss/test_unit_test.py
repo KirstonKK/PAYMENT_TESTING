@@ -63,4 +63,7 @@ def test_order_total() -> None:
     order.line_items.append(LineItem(name="Test", price=100))
     assert order.total == 100
 
+unittest.main()
+
+
 
