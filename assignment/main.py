@@ -1,8 +1,8 @@
 # point of sale system 
 
+from pay.processor import PaymentProcessor
+from pay.order import LineItem
 from pay.order import LineItem, Order
-from pay.payment import pay_order
-
 
 def main():
     # Test card number: 1249190007575069
